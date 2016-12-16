@@ -1,11 +1,15 @@
-var express = require("express");
-    var app = express();
+var express = require('express');
+var path = require('path');
+var app = express();
 
-    app.get('/', function(req, res) {
-      res.send('Hello World!');
-    });
+app.get('/', function(req,res){
+	res.send('Hello Worldasdfsd');
+});
 
-    var port = Number(process.env.PORT || 5000);
-    app.listen(port, function() {
-      console.log("Listening on " + port);
-    });
+app.get('/about', function(req,res){
+	res.sendFile('about.html' , { root : __dirname});	
+});
+
+app.listen('3000', function(){
+	console.log('Running on port 3000');
+});
