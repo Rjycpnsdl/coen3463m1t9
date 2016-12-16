@@ -1,0 +1,23 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Arjay Dala",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rjycpnsdl/coen3463m1t9.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rjycpnsdl/coen3463m1t9/issues"
+  },
+  "homepage": "https://github.com/Rjycpnsdl/coen3463m1t9#readme",
+  "description": ""
+}
