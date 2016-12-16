@@ -7,7 +7,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "start": "node start app.js"
   },
   "author": "Arjay Dala",
   "license": "ISC",
